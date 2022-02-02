@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Reenie Beanie', cursive;
+}
+
 input:invalid {
     border: red solid 3px;
   }
