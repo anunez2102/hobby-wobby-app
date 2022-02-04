@@ -17,11 +17,13 @@ const Navbar = () => {
                         <NavItem>
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
+                       
                     </NavMenu>
+                       
                 </NavbarContainer>
             </Nav>
         </>
     );
 }
 
-export default Navbar;
+export default Nav;

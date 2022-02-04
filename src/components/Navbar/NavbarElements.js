@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: red;
+    color: black    ;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -52,6 +52,7 @@ display: none;
     transfor: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: blue;
 }
 `;
 
@@ -62,25 +63,14 @@ export const NavMenu = styled.ul`
     text-align: center;
     margin-right: 22px;
 
-@media screen and (max-width: 760px) {
-    display; none;
+// @media screen and (max-width: 760px) {
+//     display; none;
 }
 `;
 
-export const NavItem = styled.li`
-    height: 80px;
-`;
+export const NavItem = `
+`
+;
 
-export const NavLinks = styled(LinkS)`
-    color: white;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-    cursor: pointer;
-
-    &.active {
-        border-bottom: 3px solid #01bf71;
-    }
-`;
+export const NavLinks = `
+`
